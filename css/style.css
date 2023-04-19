@@ -1,0 +1,98 @@
+/* header qismi */
+
+.container__heder {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.header__nav ul {
+  display: inline-flex;
+}
+
+.header__nav ul a {
+  margin: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #83888f;
+}
+
+.header__nav ul a:hover {
+  color: blue;
+  opacity: 0.3;
+}
+
+/* section qismi */
+.container__section {
+  background-image: url("../img/Bitmap.png");
+  width: 1085px;
+  height: 600px;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 130px;
+}
+.section__title {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 50px;
+  width: 500px;
+}
+.section--text {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fefcf7;
+  margin-bottom: 20px;
+}
+.section--textera {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+.main__button {
+  background: #0e8784;
+  border-radius: 6px;
+  width: 217px;
+  height: 56px;
+
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #fefcf7;
+}
+.main__button:active {
+  opacity: 0.3;
+}
+/* mark */
+.container__mark {
+    
+}
+
+.mark__textera {
+  background: linear-gradient(
+    180deg,
+    rgba(254, 252, 247, 0.0001) 0%,
+    #fefcf7 100%
+  );
+}
+.mark__textera h2 {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 150px;
+  line-height: 72px;
+  text-align: center;
+  color: #a9aeb5;
+}
